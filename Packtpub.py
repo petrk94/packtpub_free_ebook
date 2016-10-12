@@ -13,11 +13,12 @@ soup = BeautifulSoup(urllib.request.urlopen("https://www.packtpub.com/packt/offe
 raw = soup.find_all("div", {"class":"dotd-title"})
 
 
-print("Packt Publishing - Notifier - Latest Free Learning ebook")
+print("Packt Publishing - Latest Free Learning ebook Checker")
 # read the result and strip the white spaces and the html code to get the text 
 for result in raw:
      print("latest free ebook title: " + result.get_text().strip())
-
+print()
+print("You can download it on www.packtpub.com/packt/offers/free-learning")
 	 
 ## Optional: If you want to save the name of the current ebook into a file to processed items
 #f = open("Packtpub_free_book", "w")
