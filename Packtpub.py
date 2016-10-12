@@ -17,11 +17,11 @@ for result in raw:
      print("latest free ebook title: " + result.get_text().strip())
 
 	 
-# Optional: If you want to save the name of the current ebook into a file to processed items
-f = open("Packtpub_free_book", "w")
-# Write the extracted content as string into the file
-f.write(str(result.get_text().strip()))
-f.close()
+## Optional: If you want to save the name of the current ebook into a file to processed items
+#f = open("Packtpub_free_book", "w")
+## Write the extracted content as string into the file
+#f.write(str(result.get_text().strip()))
+#f.close()
 
 # stop the program, comandline window will not close after execution
 os.system("pause")
