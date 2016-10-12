@@ -1,5 +1,6 @@
 import urllib.request
 import urllib
+import os
 from bs4 import BeautifulSoup
 
 
@@ -22,8 +23,9 @@ f = open("Packtpub_free_book", "w")
 f.write(str(result.get_text().strip()))
 f.close()
 
+# stop the program, comandline window will not close after execution
+os.system("pause")
 
-	 
 # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#strings-and-stripped-strings
 
 # http://stackoverflow.com/questions/20889790/get-text-of-childrens-in-a-div-with-beautifulsoup
