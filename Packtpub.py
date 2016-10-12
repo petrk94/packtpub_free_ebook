@@ -1,3 +1,5 @@
+# developed by petrk94
+# https://github.com/petrk94/packtpub_freebook_notifier
 import urllib.request
 import urllib
 import os
