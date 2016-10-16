@@ -2,7 +2,6 @@
 # https://github.com/petrk94/packtpub_freebook_notifier
 import urllib.request
 import urllib
-import os
 from bs4 import BeautifulSoup
 
 
@@ -27,7 +26,7 @@ print("You can download it on www.packtpub.com/packt/offers/free-learning")
 #f.close()
 
 # stop the program, comandline window will not close after execution
-os.system("pause")
+
 
 # https://www.crummy.com/software/BeautifulSoup/bs4/doc/#strings-and-stripped-strings
 
